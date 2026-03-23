@@ -23,8 +23,6 @@ public class OOPSBannerUC4 {
 
         banner[6] = String.join(" ",
                 "  ***  ", "  ***  ", " *     ", "       ");
-
-        // Step 3: Use enhanced for loop to print banner
         for (String line : banner) {
             System.out.println(line);
         }
